@@ -9,6 +9,9 @@ DEVICE_PATH := device/lge/mh2lm
 # inherit from common tree
 -include device/lge/sm8150-common/BoardConfigCommon.mk
 
+# Platform
+TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
+
 # Display
 TARGET_SCREEN_DENSITY := 401
 
