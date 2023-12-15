@@ -18,6 +18,7 @@
 #define ANDROID_HARDWARE_BIOMETRICS_FINGERPRINT_V2_3_BIOMETRICSFINGERPRINT_H
 
 #include <android/hardware/biometrics/fingerprint/2.3/IBiometricsFingerprint.h>
+#include <vendor/lge/hardware/biometrics/fingerprint/2.2/ILgeBiometricsFingerprint.h>
 #include <hidl/MQDescriptor.h>
 #include <hidl/Status.h>
 
@@ -39,6 +40,8 @@ using ::android::hardware::Return;
 using ::android::hardware::Void;
 using ::android::hardware::biometrics::fingerprint::V2_1::IBiometricsFingerprintClientCallback;
 using ::android::hardware::biometrics::fingerprint::V2_1::RequestStatus;
+using ::vendor::lge::hardware::biometrics::fingerprint::V2_2::ILgeBiometricsFingerprint;
+using ::vendor::lge::hardware::biometrics::fingerprint::V2_2::FingerCmdLge;
 
 struct BiometricsFingerprint : public IBiometricsFingerprint {
     BiometricsFingerprint();
@@ -69,6 +72,7 @@ struct BiometricsFingerprint : public IBiometricsFingerprint {
     std::mutex mSetHbmFodMutex;
 
     sp<IBiometricsFingerprint_2_1> biometrics_2_1_service;
+    sp<ILgeBiometricsFingerprint> mLgeFingerprint;
 };
 
 }  // namespace implementation

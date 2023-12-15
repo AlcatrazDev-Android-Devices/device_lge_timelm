@@ -21,6 +21,8 @@ cc_binary {
         "android.hardware.biometrics.fingerprint@2.1",
         "android.hardware.biometrics.fingerprint@2.2",
         "android.hardware.biometrics.fingerprint@2.3",
+        "vendor.lge.hardware.biometrics.fingerprint@2.1",
+        "vendor.lge.hardware.biometrics.fingerprint@2.2",
     ],
     proprietary: true,
 }

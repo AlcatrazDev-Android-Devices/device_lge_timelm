@@ -28,6 +28,9 @@
 #include <fstream>
 #include <thread>
 
+#define NOTIFY_SCAN_START FingerCmdLge::SCAN_START
+#define NOTIFY_SCAN_STOP FingerCmdLge::SCAN_STOP
+
 #define FOD_HBM_PATH "/sys/devices/virtual/panel/brightness/fp_lhbm"
 
 namespace android {
@@ -42,8 +45,13 @@ void setFodHbm(bool status) {
 }
 
 void BiometricsFingerprint::disableHighBrightFod() {
+    std::lock_guard<std::mutex> lock(mSetHbmFodMutex);
+
     if (!hbmFodEnabled)
         return;
+
+    mLgeFingerprint->extraCmd(NOTIFY_SCAN_STOP, {},
+                                   [](const hidl_vec<signed char> &) {});
 
     setFodHbm(false);
 
@@ -51,8 +59,13 @@ void BiometricsFingerprint::disableHighBrightFod() {
 }
 
 void BiometricsFingerprint::enableHighBrightFod() {
+    std::lock_guard<std::mutex> lock(mSetHbmFodMutex);
+
     if (hbmFodEnabled)
         return;
+
+    mLgeFingerprint->extraCmd(NOTIFY_SCAN_START, {},
+                                   [](const hidl_vec<signed char> &) {});
 
     setFodHbm(true);
 
@@ -61,6 +74,7 @@ void BiometricsFingerprint::enableHighBrightFod() {
 
 BiometricsFingerprint::BiometricsFingerprint() {
     biometrics_2_1_service = IBiometricsFingerprint_2_1::getService();
+    mLgeFingerprint = ILgeBiometricsFingerprint::getService();
 
     hbmFodEnabled = false;
 }
