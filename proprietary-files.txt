@@ -816,10 +816,16 @@ vendor/lib64/libwvhidl.so
 vendor/lib64/vendor.qti.hardware.qseecom@1.0.so
 
 # Fingerprint
+vendor/bin/hw/vendor.lge.hardware.biometrics.fingerprint@2.2-service
+vendor/etc/init/vendor.lge.hardware.biometrics.fingerprint@2.2-service.rc
+vendor/etc/vintf/manifest/vendor.lge.hardware.biometrics.fingerprint@2.2-service.xml
 vendor/lib64/hw/fingerprint.msmnile.so
 vendor/lib64/libRbsFlow.so
 vendor/lib64/libets_teeclient_v2.so
 vendor/lib64/libfpsph.so
+vendor/lib64/vendor.lge.hardware.biometrics.fingerprint@2.1.so
+vendor/lib64/vendor.lge.hardware.biometrics.fingerprint@2.2.so
+vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
 
 # GNSS
 vendor/etc/gnss_antenna_info.conf
