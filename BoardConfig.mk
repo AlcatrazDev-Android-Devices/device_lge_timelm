@@ -25,5 +25,8 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 # Recovery
 TARGET_RECOVERY_UI_MARGIN_HEIGHT := 90
 
+# SELinux
+BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+
 # inherit from the proprietary version
 -include vendor/lge/mh2lm/BoardConfigVendor.mk
