@@ -978,10 +978,6 @@ vendor/lib64/sensors.sar.so
 vendor/lib64/sensors.ssc.so
 vendor/lib64/vendor.lge.hardware.sensors@1.0.so
 
-# Time
-vendor/lib/libtime_genoff.so
-vendor/lib64/libtime_genoff.so
-
 # Thermal
 vendor/etc/thermal-engine-8150.conf
 
