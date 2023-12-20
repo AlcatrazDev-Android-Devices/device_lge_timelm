@@ -982,6 +982,9 @@ vendor/lib64/vendor.lge.hardware.sensors@1.0.so
 vendor/lib/libtime_genoff.so
 vendor/lib64/libtime_genoff.so
 
+# Thermal
+vendor/etc/thermal-engine-8150.conf
+
 # Wifi
 vendor/etc/wifi/CN/bdwlan.bin
 vendor/etc/wifi/CN/bdwlan_ch0.bin
