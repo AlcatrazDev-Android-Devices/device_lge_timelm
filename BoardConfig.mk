@@ -15,6 +15,9 @@ TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
 # Display
 TARGET_SCREEN_DENSITY := 401
 
+# HIDL
+ODM_MANIFEST_FILES += $(DEVICE_PATH)/manifest_odm.xml
+
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/mh2lm-perf_defconfig
 
