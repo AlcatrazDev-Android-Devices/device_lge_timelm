@@ -39,5 +39,5 @@
 
          @see https://www.w3.org/TR/SVG/paths.html#PathData
          -->
-    <string translatable="false" name="config_mainBuiltInDisplayCutout">M 0,0 L -30,0 L -30,33.52 L 30, 33.52 L 30, 0 Z @dp</string>
+    <string translatable="false" name="config_mainBuiltInDisplayCutout">M 0,0 L -23.23, 0 L -23.23, 28.98 L 23.23, 28.98 L 23.23, 0 Z @dp</string>
 </resources>

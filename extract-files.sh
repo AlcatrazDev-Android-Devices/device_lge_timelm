@@ -8,9 +8,7 @@
 
 function blob_fixup() {
     case "${1}" in
-        vendor/lib64/hw/fingerprint.msmnile.so)
-            "${PATCHELF}" --add-needed "libRbsFlow_shim.so" "${2}"
-            ;;
+
     esac
 }
 
@@ -22,8 +20,8 @@ fi
 
 set -e
 
-export DEVICE=mh2lm
-export DEVICE_COMMON=sm8150-common
+export DEVICE=timelm
+export DEVICE_COMMON=sm8250-common
 export VENDOR=lge
 
 "./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"
