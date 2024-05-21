@@ -8,7 +8,9 @@
 
 function blob_fixup() {
     case "${1}" in
-
+        vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so)
+            "${SIGSCAN}" -p "9A 0A 00 94" -P "E0 03 00 AA" -f "${2}"
+            ;;
     esac
 }
 
