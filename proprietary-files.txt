@@ -180,7 +180,6 @@ vendor/lib/hw/camera.kona.so
 vendor/lib/hw/com.qti.chi.override.so
 vendor/lib/HDR10plus.so
 vendor/lib/lib.com.lge.elvis.so
-vendor/lib/libcamera2ndk_vendor.so
 vendor/lib/libcamerapostproc.so
 vendor/lib/libcamera_nn_stub.so
 vendor/lib/libcamxexternalformatutils.so
@@ -204,7 +203,6 @@ vendor/lib/libc++_shared_snpe.so
 vendor/lib/libDxHdcp.so
 vendor/lib/libeepromcutter.so
 vendor/lib/libfilm_emulation_hal.so
-vendor/lib/libgui_vendor.so
 vendor/lib/libimagerwrapper.so
 vendor/lib/libipebpsstriping.so
 vendor/lib/liblgae_main.so
@@ -231,9 +229,7 @@ vendor/lib/libthreadutils.so
 vendor/lib/libvideoutils.so
 vendor/lib/libbwfocuspeaking.so
 vendor/lib/vendor.lge.hardware.cameraex@1.0.so
-vendor/lib/vendor.qti.hardware.camera.device@1.0.so
 vendor/lib/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
-vendor/lib/vendor.qti.hardware.camera.postproc@1.0.so
 vendor/lib64/camera/com.qti.eeprom.irs2381c_polar.so
 vendor/lib64/camera/com.qti.eeprom.s5k3j1_fm24c32d.so
 vendor/lib64/camera/com.qti.eeprom.s5k3m5_fm24c32d.so
@@ -405,7 +401,6 @@ vendor/lib64/hw/camera.kona.so
 vendor/lib64/hw/com.qti.chi.override.so
 vendor/lib64/HDR10plus.so
 vendor/lib64/lib.com.lge.elvis.so
-vendor/lib64/libcamera2ndk_vendor.so
 vendor/lib64/libcamerapostproc.so
 vendor/lib64/libcamera_nn_stub.so
 vendor/lib64/libcamxexternalformatutils.so
@@ -457,9 +452,7 @@ vendor/lib64/libsynx.so
 vendor/lib64/libthreadutils.so
 vendor/lib64/libbwfocuspeaking.so
 vendor/lib64/vendor.lge.hardware.cameraex@1.0.so
-vendor/lib64/vendor.qti.hardware.camera.device@1.0.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
-vendor/lib64/vendor.qti.hardware.camera.postproc@1.0.so
 
 # Camera-arcsoft
 vendor/lib/libarcsoft_beauty_picselfie.so
