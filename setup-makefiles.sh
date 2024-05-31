@@ -8,8 +8,8 @@
 
 set -e
 
-export DEVICE=mh2lm
-export DEVICE_COMMON=sm8150-common
+export DEVICE=timelm
+export DEVICE_COMMON=sm8250-common
 export VENDOR=lge
 
 "./../../${VENDOR}/${DEVICE_COMMON}/setup-makefiles.sh" "$@"

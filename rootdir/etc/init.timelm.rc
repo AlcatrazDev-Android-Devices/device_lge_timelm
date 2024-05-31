@@ -1,0 +1,28 @@
+# file will be installed as vendor/etc/init/hw/init.{ro.hardware}.rc
+
+# Chipset vendor
+import /vendor/etc/init/hw/init.qcom.rc
+
+# to override init.qcom.rc and init.target.rc
+import /vendor/etc/init/hw/init.lge.usb.rc
+import /vendor/etc/init/hw/init.lge.usb.configfs.rc
+import /vendor/etc/init/hw/init.lge.power.rc
+import /vendor/etc/init/hw/init.lge.sensors.rc
+import /vendor/etc/init/hw/init.lge.audio.rc
+import /vendor/etc/init/hw/init.lge.display.rc
+import /vendor/etc/init/hw/init.lge.fingerprints.rc
+
+# import chipset common rc file
+import /vendor/etc/init/hw/init.kona.rc
+
+on post-fs
+    # change permissions on ioninfo
+    chown root log /proc/ioninfo
+    chmod 0440 /proc/ioninfo
+
+# CAMERA: create tof for calibration data
+    mkdir /mnt/vendor/persist-lg/tof 0775 camera camera
+
+on post-fs-data
+# NFC: create data/nfc for nv storage
+    mkdir /data/vendor/nfc 0770 nfc nfc

@@ -74,7 +74,7 @@
     </reference>
     <reference name="DEFAULT_VOIP_VOLUME_CURVE">
     <!-- Default is Voip Volume Curve -->
-        <point>0,-2100</point>
+        <point>0,-2000</point>
         <point>33,-1400</point>
         <point>66,-700</point>
         <point>100,0</point>
@@ -85,6 +85,13 @@
         <point>20,-3500</point>
         <point>60,-2200</point>
         <point>100,-1300</point>
+    </reference>
+    <reference name="DEFAULT_HEARING_AID_VOLUME_CURVE">
+    <!-- Default Hearing Aid Volume Curve -->
+        <point>1,-12700</point>
+        <point>20,-8000</point>
+        <point>60,-4000</point>
+        <point>100,0</point>
     </reference>
     <!-- **************************************************************** -->
     <!-- Non-mutable default volume curves:                               -->

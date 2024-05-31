@@ -164,6 +164,18 @@
                    channels="2" />
         </EncoderProfile>
 
+        <EncoderProfile quality="hfr1080p60" fileFormat="mp4" duration="30">
+            <Video codec="h264"
+                   bitRate="24000000"
+                   width="1920"
+                   height="1080"
+                   frameRate="60" />
+            <Audio codec="aac"
+                   bitRate="156000"
+                   sampleRate="48000"
+                   channels="2" />
+        </EncoderProfile>
+
         <EncoderProfile quality="highspeed720p" fileFormat="mp4" duration="30">
             <Video codec="h264"
                    bitRate="56000000"
@@ -200,12 +212,12 @@
                    channels="2" />
         </EncoderProfile>
 
-        <EncoderProfile quality="hfr1080p60" fileFormat="mp4" duration="30">
+        <EncoderProfile quality="hfr720p480" fileFormat="mp4" duration="30">
             <Video codec="h264"
-                   bitRate="24000000"
-                   width="1920"
-                   height="1080"
-                   frameRate="60" />
+                   bitRate="72000000"
+                   width="1280"
+                   height="720"
+                   frameRate="480" />
             <Audio codec="aac"
                    bitRate="156000"
                    sampleRate="48000"
@@ -325,6 +337,177 @@
                    channels="2" />
         </EncoderProfile>
 
+        <EncoderProfile quality="timelapse2160p" fileFormat="mp4" duration="30">
+            <Video codec="h264"
+                   bitRate="74000000"
+                   width="3840"
+                   height="2160"
+                   frameRate="30" />
+            <!-- audio setting is ignored -->
+            <Audio codec="aac"
+                   bitRate="156000"
+                   sampleRate="48000"
+                   channels="2" />
+        </EncoderProfile>
+
+        <EncoderProfile quality="timelapsehevc1080p" fileFormat="mp4" duration="30">
+            <Video codec="hevc"
+                   bitRate="38000000"
+                   width="1920"
+                   height="1080"
+                   frameRate="30" />
+            <!-- audio setting is ignored -->
+            <Audio codec="aac"
+                   bitRate="156000"
+                   sampleRate="48000"
+                   channels="2" />
+        </EncoderProfile>
+
+        <EncoderProfile quality="timelapsehevc2160p" fileFormat="mp4" duration="30">
+            <Video codec="hevc"
+                   bitRate="60000000"
+                   width="3840"
+                   height="2160"
+                   frameRate="30" />
+            <!-- audio setting is ignored -->
+            <Audio codec="aac"
+                   bitRate="156000"
+                   sampleRate="48000"
+                   channels="2" />
+        </EncoderProfile>
+
+        <EncoderProfile quality="timelapsehevc4320p" fileFormat="mp4" duration="30">
+            <Video codec="hevc"
+                   bitRate="74000000"
+                   width="7680"
+                   height="4320"
+                   frameRate="26" />
+            <!-- audio setting is ignored -->
+            <Audio codec="aac"
+                   bitRate="156000"
+                   sampleRate="48000"
+                   channels="2" />
+        </EncoderProfile>
+
+        <EncoderProfile quality="8kuhdhevc" fileFormat="mp4" duration="30">
+            <Video codec="hevc"
+                   bitRate="48000000"
+                   width="7680"
+                   height="4320"
+                   frameRate="26" />
+            <Audio codec="aac"
+                   bitRate="156000"
+                   sampleRate="48000"
+                   channels="2" />
+        </EncoderProfile>
+
+        <EncoderProfile quality="4kuhd60hevc" fileFormat="mp4" duration="30">
+            <Video codec="hevc"
+                   bitRate="48000000"
+                   width="3840"
+                   height="2160"
+                   frameRate="60" />
+            <Audio codec="aac"
+                   bitRate="156000"
+                   sampleRate="48000"
+                   channels="2" />
+        </EncoderProfile>
+
+        <EncoderProfile quality="4kuhdhevc" fileFormat="mp4" duration="30">
+            <Video codec="hevc"
+                   bitRate="35000000"
+                   width="3840"
+                   height="2160"
+                   frameRate="30" />
+            <Audio codec="aac"
+                   bitRate="156000"
+                   sampleRate="48000"
+                   channels="2" />
+        </EncoderProfile>
+
+         <EncoderProfile quality="hfrhevc1080p60" fileFormat="mp4" duration="30">
+            <Video codec="hevc"
+                   bitRate="20000000"
+                   width="1920"
+                   height="1080"
+                   frameRate="60" />
+            <Audio codec="aac"
+                   bitRate="156000"
+                   sampleRate="48000"
+                   channels="2" />
+        </EncoderProfile>
+
+        <EncoderProfile quality="720phevc" fileFormat="mp4" duration="30">
+            <Video codec="hevc"
+                   bitRate="10000000"
+                   width="1280"
+                   height="720"
+                   frameRate="30" />
+            <Audio codec="aac"
+                   bitRate="156000"
+                   sampleRate="48000"
+                   channels="2" />
+        </EncoderProfile>
+
+        <EncoderProfile quality="1080phevc" fileFormat="mp4" duration="30">
+            <Video codec="hevc"
+                   bitRate="14000000"
+                   width="1920"
+                   height="1080"
+                   frameRate="30" />
+            <Audio codec="aac"
+                   bitRate="156000"
+                   sampleRate="48000"
+                   channels="2" />
+        </EncoderProfile>
+
+        <EncoderProfile quality="hfrhevc1080p240" fileFormat="mp4" duration="30">
+            <Video codec="hevc"
+                   bitRate="56000000"
+                   width="1920"
+                   height="1080"
+                   frameRate="240" />
+            <Audio codec="aac"
+                   bitRate="156000"
+                   sampleRate="48000"
+                   channels="2" />
+        </EncoderProfile>
+        <EncoderProfile quality="hfrhevc1080p120" fileFormat="mp4" duration="30">
+            <Video codec="hevc"
+                   bitRate="48000000"
+                   width="1920"
+                   height="1080"
+                   frameRate="120" />
+            <Audio codec="aac"
+                   bitRate="156000"
+                   sampleRate="48000"
+                   channels="2" />
+        </EncoderProfile>
+
+        <EncoderProfile quality="hfrhevc720p240" fileFormat="mp4" duration="30">
+            <Video codec="hevc"
+                   bitRate="40000000"
+                   width="1280"
+                   height="720"
+                   frameRate="240" />
+            <Audio codec="aac"
+                   bitRate="156000"
+                   sampleRate="48000"
+                   channels="2" />
+        </EncoderProfile>
+
+        <EncoderProfile quality="hfrhevc720p480" fileFormat="mp4" duration="30">
+            <Video codec="hevc"
+                   bitRate="56000000"
+                   width="1280"
+                   height="720"
+                   frameRate="480" />
+            <Audio codec="aac"
+                   bitRate="156000"
+                   sampleRate="48000"
+                   channels="2" />
+        </EncoderProfile>
+
         <ImageEncoding quality="95" />
         <ImageEncoding quality="80" />
         <ImageEncoding quality="70" />
@@ -394,6 +577,18 @@
                    channels="2" />
         </EncoderProfile>
 
+        <EncoderProfile quality="hfr1080p60" fileFormat="mp4" duration="30">
+            <Video codec="h264"
+                   bitRate="24000000"
+                   width="1920"
+                   height="1080"
+                   frameRate="60" />
+            <Audio codec="aac"
+                   bitRate="156000"
+                   sampleRate="48000"
+                   channels="2" />
+        </EncoderProfile>
+
         <EncoderProfile quality="timelapseqcif" fileFormat="mp4" duration="30">
             <Video codec="h264"
                    bitRate="192000"
@@ -444,6 +639,42 @@
                    bitRate="96000"
                    sampleRate="48000"
                    channels="1" />
+        </EncoderProfile>
+
+        <EncoderProfile quality="hfrhevc1080p60" fileFormat="mp4" duration="30">
+            <Video codec="hevc"
+                   bitRate="20000000"
+                   width="1920"
+                   height="1080"
+                   frameRate="60" />
+            <Audio codec="aac"
+                   bitRate="156000"
+                   sampleRate="48000"
+                   channels="2" />
+        </EncoderProfile>
+
+        <EncoderProfile quality="720phevc" fileFormat="mp4" duration="30">
+            <Video codec="hevc"
+                   bitRate="10000000"
+                   width="1280"
+                   height="720"
+                   frameRate="30" />
+            <Audio codec="aac"
+                   bitRate="156000"
+                   sampleRate="48000"
+                   channels="2" />
+        </EncoderProfile>
+
+        <EncoderProfile quality="1080phevc" fileFormat="mp4" duration="30">
+            <Video codec="hevc"
+                   bitRate="14000000"
+                   width="1920"
+                   height="1080"
+                   frameRate="30" />
+            <Audio codec="aac"
+                   bitRate="156000"
+                   sampleRate="48000"
+                   channels="2" />
         </EncoderProfile>
 
         <ImageEncoding quality="95" />
@@ -515,6 +746,18 @@
                    channels="2" />
         </EncoderProfile>
 
+        <EncoderProfile quality="hfr1080p60" fileFormat="mp4" duration="30">
+            <Video codec="h264"
+                   bitRate="24000000"
+                   width="1920"
+                   height="1080"
+                   frameRate="60" />
+            <Audio codec="aac"
+                   bitRate="156000"
+                   sampleRate="48000"
+                   channels="2" />
+        </EncoderProfile>
+
         <EncoderProfile quality="4kuhd" fileFormat="mp4" duration="30">
             <Video codec="h264"
                    bitRate="48000000"
@@ -527,36 +770,12 @@
                    channels="2" />
         </EncoderProfile>
 
-        <EncoderProfile quality="highspeed720p" fileFormat="mp4" duration="30">
-            <Video codec="h264"
-                   bitRate="48000000"
-                   width="1280"
-                   height="720"
-                   frameRate="120" />
-            <Audio codec="aac"
-                   bitRate="156000"
-                   sampleRate="48000"
-                   channels="2" />
-        </EncoderProfile>
-
         <EncoderProfile quality="hfr720p120" fileFormat="mp4" duration="30">
             <Video codec="h264"
                    bitRate="48000000"
                    width="1280"
                    height="720"
                    frameRate="120" />
-            <Audio codec="aac"
-                   bitRate="156000"
-                   sampleRate="48000"
-                   channels="2" />
-        </EncoderProfile>
-
-        <EncoderProfile quality="hfr1080p60" fileFormat="mp4" duration="30">
-            <Video codec="h264"
-                   bitRate="24000000"
-                   width="1920"
-                   height="1080"
-                   frameRate="60" />
             <Audio codec="aac"
                    bitRate="156000"
                    sampleRate="48000"
@@ -628,12 +847,99 @@
                    channels="2" />
         </EncoderProfile>
 
+        <EncoderProfile quality="timelapse2160p" fileFormat="mp4" duration="30">
+            <Video codec="h264"
+                   bitRate="74000000"
+                   width="3840"
+                   height="2160"
+                   frameRate="30" />
+            <!-- audio setting is ignored -->
+            <Audio codec="aac"
+                   bitRate="156000"
+                   sampleRate="48000"
+                   channels="2" />
+        </EncoderProfile>
+
+        <EncoderProfile quality="timelapsehevc1080p" fileFormat="mp4" duration="30">
+            <Video codec="hevc"
+                   bitRate="38000000"
+                   width="1920"
+                   height="1080"
+                   frameRate="30" />
+            <!-- audio setting is ignored -->
+            <Audio codec="aac"
+                   bitRate="156000"
+                   sampleRate="48000"
+                   channels="2" />
+        </EncoderProfile>
+
+        <EncoderProfile quality="timelapsehevc2160p" fileFormat="mp4" duration="30">
+            <Video codec="hevc"
+                   bitRate="60000000"
+                   width="3840"
+                   height="2160"
+                   frameRate="30" />
+            <!-- audio setting is ignored -->
+            <Audio codec="aac"
+                   bitRate="156000"
+                   sampleRate="48000"
+                   channels="2" />
+        </EncoderProfile>
+
+        <EncoderProfile quality="4kuhdhevc" fileFormat="mp4" duration="30">
+            <Video codec="hevc"
+                   bitRate="35000000"
+                   width="3840"
+                   height="2160"
+                   frameRate="30" />
+            <Audio codec="aac"
+                   bitRate="156000"
+                   sampleRate="48000"
+                   channels="2" />
+         </EncoderProfile>
+
+         <EncoderProfile quality="hfrhevc1080p60" fileFormat="mp4" duration="30">
+            <Video codec="hevc"
+                   bitRate="20000000"
+                   width="1920"
+                   height="1080"
+                   frameRate="60" />
+            <Audio codec="aac"
+                   bitRate="156000"
+                   sampleRate="48000"
+                   channels="2" />
+        </EncoderProfile>
+
+        <EncoderProfile quality="720phevc" fileFormat="mp4" duration="30">
+            <Video codec="hevc"
+                   bitRate="10000000"
+                   width="1280"
+                   height="720"
+                   frameRate="30" />
+            <Audio codec="aac"
+                   bitRate="156000"
+                   sampleRate="48000"
+                   channels="2" />
+        </EncoderProfile>
+
+        <EncoderProfile quality="1080phevc" fileFormat="mp4" duration="30">
+            <Video codec="hevc"
+                   bitRate="14000000"
+                   width="1920"
+                   height="1080"
+                   frameRate="30" />
+            <Audio codec="aac"
+                   bitRate="156000"
+                   sampleRate="48000"
+                   channels="2" />
+        </EncoderProfile>
         <ImageEncoding quality="95" />
         <ImageEncoding quality="80" />
         <ImageEncoding quality="70" />
         <ImageDecoding memCap="20000000" />
 
     </CamcorderProfiles>
+
     <EncoderOutputFileFormat name="3gp" />
     <EncoderOutputFileFormat name="mp4" />
 
@@ -646,9 +952,9 @@
         minBitRate="128000" maxBitRate="100000000"
         minFrameWidth="176" maxFrameWidth="3840"
         minFrameHeight="144" maxFrameHeight="2160"
-        minFrameRate="15" maxFrameRate="240"
+        minFrameRate="15" maxFrameRate="480"
         maxHFRFrameWidth="1920" maxHFRFrameHeight="1080"
-        maxHFRMode="240"  />
+        maxHFRMode="480"  />
 
     <VideoEncoderCap name="h263" enabled="true"
         minBitRate="64000" maxBitRate="8000000"
@@ -678,8 +984,8 @@
     LGE_CHAGE[MM-FMRadio-FW@lge.com] Modify aac profile for HiFi recorder
     -->
     <AudioEncoderCap name="aac" enabled="true"
-        minBitRate="8000" maxBitRate="448000"
-        minSampleRate="8000" maxSampleRate="96000"
+        minBitRate="8000" maxBitRate="224000"
+        minSampleRate="8000" maxSampleRate="48000"
         minChannels="1" maxChannels="6" />
 
     <AudioEncoderCap name="heaac" enabled="true"
@@ -766,13 +1072,19 @@
     <LgeCamcorderCap  minfps="30000" maxfps="30000"
         usehighprofile="1"  audiozoomenable="0"
         usehwaac="1" adjustSync="50000"
-        supportedlistfhd_189="2160x1080:2160x1080:1,2,24,30,60:48000000,36000000,24000000:24000000,17000000,10000000:36000000,24000000,12000000"
-        supportedlistfhd_1899="2268x1080:2268x1080:1,2,24,30,60:48000000,36000000,24000000:24000000,17000000,10000000:36000000,24000000,12000000"
-        supportedlistfhd_1959="2340x1080:2340x1080:1,2,24,30,60:48000000,36000000,24000000:24000000,17000000,10000000:36000000,24000000,12000000"
+        supportedlistuhd="1920x1080:3840x2160:1,2,24,30:80000000,64000000,48000000:52000000,48000000,30000000"
+        supportedlistfhd="1920x1080:1920x1080:1,2,24,30,60:48000000,36000000,24000000:24000000,17000000,10000000:36000000,24000000,12000000"
+        supportedlistfhd_2059="2460x1080:2460x1080:1,2,24,30,60:48000000,36000000,24000000:24000000,17000000,10000000:36000000,24000000,12000000"
         supportedlistfhd_219="2560x1080:2560x1080:1,2,24,30,60:48000000,36000000,24000000:24000000,17000000,10000000:36000000,24000000,12000000"
-        supportedlisthd_189="1440x720:1440x720:1,2,24,30,60:36000000,24000000,12000000:18000000,12000000,6000000:24000000,17000000,10000000"
-        supportedlisthd_1899="1512x720:1512x720:1,2,24,30,60:36000000,24000000,12000000:18000000,12000000,6000000:24000000,17000000,10000000"
-        supportedlisthd_1959="1560x720:1560x720:1,2,24,30,60:36000000,24000000,12000000:18000000,12000000,6000000:24000000,17000000,10000000"
+        supportedlisthd="1280x720:1280x720:1,2,24,30,60,120:36000000,24000000,12000000:18000000,12000000,6000000:36000000,24000000,12000000:72000000,48000000,24000000"
+        supportedlisthd_2059="1640x720:1640x720:1,2,24,30,60:36000000,24000000,12000000:18000000,12000000,6000000:24000000,17000000,10000000"
         supportedlisthd_219="1680x720:1680x720:1,2,24,30,60:36000000,24000000,12000000:18000000,12000000,6000000:24000000,17000000,10000000"
+        supportedlisthevcuhd="1920x1080:3840x2160:1,2,24,30:64000000,48000000,32000000:40000000,32000000,24000000"
+        supportedlisthevcfhd="1920x1080:1920x1080:1,2,24,30,60:32000000,24000000,16000000:16000000,12000000,8000000:24000000,20000000,10000000"
+        supportedlisthevcfhd_2059="1920x1080:2460x1080:1,2,24,30,60:32000000,24000000,16000000:16000000,12000000,8000000:24000000,20000000,10000000"
+        supportedlisthevcfhd_219="1920x1080:2560x1080:1,2,24,30,60:32000000,24000000,16000000:16000000,12000000,8000000:24000000,20000000,10000000"
+        supportedlisthevchd="1280x720:1280x720:1,2,24,30,60,120:24000000,16000000,10000000:12000000,10000000,4000000:24000000,20000000,10000000:56000000,32000000,16000000"
+        supportedlisthevchd_2059="1280x720:1640x720:1,2,24,30,60:24000000,16000000,10000000:12000000,10000000,4000000:24000000,20000000,10000000"
+        supportedlisthevchd_219="1280x720:1680x720:1,2,24,30,60:24000000,16000000,10000000:12000000,10000000,4000000:24000000,20000000,10000000"
         minqp="16" maxqp="44"/>
 </MediaSettings>

@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/lineage_mh2lm.mk
+    $(LOCAL_DIR)/lineage_timelm.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_mh2lm-eng \
-    lineage_mh2lm-user \
-    lineage_mh2lm-userdebug
+    lineage_timelm-eng \
+    lineage_timelm-user \
+    lineage_timelm-userdebug
