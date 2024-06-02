@@ -224,6 +224,7 @@ vendor/lib/libsymphony-cpu.so
 vendor/lib/libSJVideoNR.so
 vendor/lib/libspectre.so
 vendor/lib/libSRIyuv.so
+vendor/lib/libstdc++.so
 vendor/lib/libsynx.so
 vendor/lib/libthreadutils.so
 vendor/lib/libvideoutils.so
@@ -448,6 +449,7 @@ vendor/lib64/libSRIyuv.so
 vendor/lib64/libswregistrationalgo.so
 vendor/lib64/libsymphony-cpu.so
 vendor/lib64/libSJVideoNR.so
+vendor/lib64/libstdc++.so
 vendor/lib64/libsynx.so
 vendor/lib64/libthreadutils.so
 vendor/lib64/libbwfocuspeaking.so
