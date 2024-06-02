@@ -1,6 +1,5 @@
 # Audio
 persist.vendor.lge.3rd.speaker.prot.enable=on
-ro.product.lge.hifi_rec_asmr=true
 
 # Camera
 camera.disable_zsl_mode=true
