@@ -11,8 +11,6 @@ ro.vendor.lge.expose_tof_sensor=1
 # LGE Misc
 ro.vendor.lge.build.target_country=COM
 ro.vendor.lge.build.target_operator=LAO
-ro.vendor.lge.capp_cupss.op.dir=/product/OP
-ro.vendor.lge.capp_cupss.rootdir=/product/OP
 ro.vendor.lge.swversion_arb=ARB00
 ro.vendor.lge.swversion=V60040d
 ro.vendor.lge.swversion_short=V40d
