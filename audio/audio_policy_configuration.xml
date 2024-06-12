@@ -66,7 +66,17 @@
                 <mixPort name="deep_buffer" role="source"
                         flags="AUDIO_OUTPUT_FLAG_DEEP_BUFFER">
                     <profile name="" format="AUDIO_FORMAT_PCM_16_BIT"
-                             samplingRates="48000" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
+                             samplingRates="32000,44100,48000,64000,88200,96000"
+                             channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
+                    <profile name="" format="AUDIO_FORMAT_PCM_8_24_BIT"
+                             samplingRates="32000,44100,48000,64000,88200,96000"
+                             channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
+                    <profile name="" format="AUDIO_FORMAT_PCM_24_BIT_PACKED"
+                             samplingRates="32000,44100,48000,64000,88200,96000"
+                             channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
+                    <profile name="" format="AUDIO_FORMAT_PCM_32_BIT"
+                             samplingRates="32000,44100,48000,64000,88200,96000"
+                             channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
                 </mixPort>
                 <mixPort name="mmap_no_irq_out" role="source" flags="AUDIO_OUTPUT_FLAG_DIRECT|AUDIO_OUTPUT_FLAG_MMAP_NOIRQ">
                     <profile name="" format="AUDIO_FORMAT_PCM_16_BIT"
@@ -209,7 +219,17 @@
                 </devicePort>
                 <devicePort tagName="Wired Headphones" type="AUDIO_DEVICE_OUT_WIRED_HEADPHONE" role="sink">
                     <profile name="" format="AUDIO_FORMAT_PCM_16_BIT"
-                             samplingRates="48000" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
+                             samplingRates="32000,44100,48000,64000,88200,96000"
+                             channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
+                    <profile name="" format="AUDIO_FORMAT_PCM_8_24_BIT"
+                             samplingRates="32000,44100,48000,64000,88200,96000"
+                             channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
+                    <profile name="" format="AUDIO_FORMAT_PCM_24_BIT_PACKED"
+                             samplingRates="32000,44100,48000,64000,88200,96000"
+                             channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
+                    <profile name="" format="AUDIO_FORMAT_PCM_32_BIT"
+                             samplingRates="32000,44100,48000,64000,88200,96000"
+                             channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
                 </devicePort>
                 <devicePort tagName="Line" type="AUDIO_DEVICE_OUT_LINE" role="sink">
                     <profile name="" format="AUDIO_FORMAT_PCM_16_BIT"
