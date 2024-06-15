@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "SettingsTargetOverlay",
+    resource_dirs: ["res"],
+    product_specific: true,
+}

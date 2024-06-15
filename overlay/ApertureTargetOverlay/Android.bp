@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "ApertureTargetOverlay",
+    resource_dirs: ["res"],
+    product_specific: true,
+}
