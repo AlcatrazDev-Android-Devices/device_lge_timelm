@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2023 The LineageOS Project
+# Copyright (C) 2023 The cherishOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/lineage_timelm.mk
+    $(LOCAL_DIR)/cherish_timelm.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_timelm-eng \
-    lineage_timelm-user \
-    lineage_timelm-userdebug
+    cherish_timelm-eng \
+    cherish_timelm-user \
+    cherish_timelm-userdebug
